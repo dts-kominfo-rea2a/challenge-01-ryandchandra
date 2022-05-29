@@ -9,21 +9,21 @@ firstUser.name = "Monica";
 firstUser.gender = "Female";
 firstUser.age = 17;
 firstUser.email = "monica@dingdong.com";
-firstUser.favoriteColor = new Set(["Yellow","Pink","White","Purple"]);
+firstUser.favoriteColor = Array.from(new Set(["Yellow","Pink","White","Purple"]));
 firstUser.isHavePet = true;
 firstUser.education = [
     { name: "SD 01",  city: "Jakarta",  graduate: 2016 },
     { name: "SMP 02",  city: "Jakarta",  graduate: 2019 },
     { name: "SMA 03",  city: "Tangerang" },
 ];
-firstUser.favoriteRestaurant = new Set(["Bento","Sushi","Pancake","Eggy","Tempura","Bento","Eggy","Padang","Tteok","Sushi","Sushi"]);
+firstUser.favoriteRestaurant = Array.from(new Set(["Bento","Sushi","Pancake","Eggy","Tempura","Bento","Eggy","Padang","Tteok","Sushi","Sushi"]));
 
 // SECOND USER
 secondUser.name = "Wendy";
 secondUser.gender = "Male";
 secondUser.age = 23;
 secondUser.email = "wendy@dingdong.com";
-secondUser.favoriteColor = new Set(["Blue","Black","Grey"]);
+secondUser.favoriteColor = Array.from(new Set(["Blue","Black","Grey"]));
 secondUser.isHavePet = false;
 secondUser.education = [
     { name: "SD 02",  city: "Jakarta",  graduate: 2010 },
@@ -31,7 +31,7 @@ secondUser.education = [
     { name: "SMA 01",  city: "Surabaya", graduate: 2016 },
     { name: "Universitas Maju", city: "Tangerang" }
 ];
-secondUser.favoriteRestaurant = new Set(["Tempura","Bento","Sushi","Pancake","Padang","Katsu","Geprek","Pancake","Eggy"]);
+secondUser.favoriteRestaurant = Array.from(new Set(["Tempura","Bento","Sushi","Pancake","Padang","Katsu","Geprek","Pancake","Eggy"]));
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
 const users = [];
